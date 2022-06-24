@@ -1434,7 +1434,7 @@
 
     "menubar.selectionForeground": "#cccccc",
     "menubar.selectionBackground": "#d3d3d31a",
-    "menubar.selectionBorder": "#000000",
+    "menubar.selectionBorder": "#00000000",
 
     "menu.foreground": "#cccccc",
     "menu.background": "#2b2d30",
