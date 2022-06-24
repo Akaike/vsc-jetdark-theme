@@ -1,0 +1,58 @@
+{
+  "name": "jetdark",
+  "displayName": "JetDark",
+  "description": "A jet theme for your eyes",
+  "version": "1.0.0",
+  "publisher": "alexanderalekseenko",
+  "license": "MIT",
+  "author": "Alexander Alekseenko",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#1e1f22",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akaike/vsc-jetdark-theme.git"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "Dark",
+    "Blue",
+    "Dark theme",
+    "Theme",
+    "Jet",
+    "Awesome theme"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetDark",
+        "path": "./themes/jetdark-color-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "2bf6279c-66bf-4938-987e-2fb28c96dd39",
+    "publisherId": "0bdbc8ec-d45b-4dab-b01b-e5fbca0882b3",
+    "publisherDisplayName": "Alexander Alekseenko",
+    "installedTimestamp": 1655414282450,
+    "targetPlatform": "undefined",
+    "updated": false,
+    "isPreReleaseVersion": false,
+    "preRelease": false
+  }
+}
