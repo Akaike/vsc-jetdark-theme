@@ -2,7 +2,6 @@
   "name": "JetDark",
   "type": "dark",
   "semanticClass": "jetdark-color-theme",
-  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "Comment",
@@ -425,6 +424,13 @@
       }
     },
     {
+      "name": "JS Entity Name Function",
+      "scope": ["meta.function-call.js.jsx"],
+      "settings": {
+        "foreground": "#140e0e"
+      }
+    },
+    {
       "name": "Entity Function Call",
       "scope": [
         "meta.function-call.ts",
@@ -491,7 +497,7 @@
       "name": "Language Variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#F07178"
+        "foreground": "#7199E6"
       }
     },
     {
@@ -631,7 +637,7 @@
       "name": "C# Classes & Storage types",
       "scope": ["entity.name.type.class.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#ffc66d"
+        "foreground": "#cbcdd2"
       }
     },
     {
@@ -803,7 +809,7 @@
       "name": "JavaScript Classes",
       "scope": "meta.class entity.name.type.class.js",
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "#cbcdd2"
       }
     },
     {
@@ -892,7 +898,7 @@
         "variable.object.property.jsx"
       ],
       "settings": {
-        "foreground": "#C0CAF5"
+        "foreground": "#A9B7C7"
       }
     },
     {
@@ -906,7 +912,7 @@
       "name": "JavaScript Entity Name Type",
       "scope": ["entity.name.type.js", "entity.name.type.module.js"],
       "settings": {
-        "foreground": "#ffcb8b"
+        "foreground": "#cbcdd2"
       }
     },
     {
@@ -1265,7 +1271,7 @@
       "name": "TypeScript[React] Node Classes",
       "scope": ["support.class.node.ts", "support.class.node.tsx"],
       "settings": {
-        "foreground": "#ffc66d"
+        "foreground": "#c3c3c3"
       }
     },
     {
@@ -1413,11 +1419,11 @@
     "statusBar.background": "#2b2d30",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.border": "#1d1e21",
-    "statusBar.debuggingBackground": "#599e5e",
+    "statusBar.debuggingBackground": "#509054",
     "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.noFolderBackground": "#68217a",
+    "statusBar.noFolderBackground": "#3e2759",
     "statusBar.noFolderForeground": "#cdcdcd",
-    "statusBarItem.remoteBackground": "#1b6399",
+    "statusBarItem.remoteBackground": "#235f8d",
     "statusBarItem.remoteForeground": "#ffffff",
 
     "titleBar.activeBackground": "#2b2d30",
@@ -1455,7 +1461,7 @@
     "textLink.foreground": "#548af7",
 
     "editor.background": "#1e1f22",
-    "editor.foreground": "#d4d4d4",
+    "editor.foreground": "#a2a8c6",
 
     "editorLineNumber.foreground": "#54565c",
     "editorCursor.foreground": "#dddddc",
@@ -1487,7 +1493,7 @@
     "editorBracketMatch.background": "#0064001a",
     "editorBracketMatch.border": "#888888",
     "editor.foldBackground": "#2d2f34",
-    "editorOverviewRuler.background": "#25252500",
+    "editorOverviewRuler.background": "#1e1f22c6",
     "editorOverviewRuler.border": "#7f7f7f00",
     "editorError.foreground": "#f9937f",
     "editorError.background": "#B73A3400",
@@ -1550,6 +1556,7 @@
 
     "tab.activeForeground": "#ffffff",
     "tab.border": "#00000000",
+    "tab.hoverForeground": "#ffffffb7",
     "tab.activeBackground": "#00000000",
     "tab.activeBorder": "#3574f0",
     "tab.activeBorderTop": "#00000000",
@@ -1571,7 +1578,7 @@
 
     "pickerGroup.foreground": "#3794ff",
     "debugToolBar.background": "#2b2d30",
-    "debugToolBar.border": "#494a4f",
+    "debugToolBar.border": "#494a4f00",
 
     "notifications.foreground": "#eaeaea",
     "notifications.background": "#2b2d30",
