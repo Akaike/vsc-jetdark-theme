@@ -64,6 +64,17 @@
       }
     },
     {
+      "scope": [
+        "keyword.operator.assignment",
+        "keyword.operator.relational",
+        "keyword.operator.comparison",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
       "scope": ["storage", "storage.type"],
       "settings": {
         "foreground": "#749DED"
