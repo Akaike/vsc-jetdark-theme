@@ -907,23 +907,15 @@
       "name": "JavaScript[React] Variable Other Object",
       "scope": [
         "variable.other.object.ts",
+        "variable.other.object.tsx",
         "variable.other.object.js",
-        "variable.other.object.jsx"
-      ],
-      "settings": {
-        "foreground": "#A9B7C7"
-      }
-    },
-    {
-      "name": "Function calls",
-      "scope": [
+        "variable.other.object.jsx",
         "meta.function-call.js.jsx",
         "meta.function-call.ts.tsx",
-        "variable.other.object.tsx",
         "meta.function-call.tsx"
       ],
       "settings": {
-        "foreground": "#ae87f1"
+        "foreground": "#AE87F1"
       }
     },
     {
