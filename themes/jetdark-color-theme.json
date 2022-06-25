@@ -1540,7 +1540,7 @@
     "editorGutter.foldingControlForeground": "#a3a3a3",
     "editorCodeLens.foreground": "#6b707a",
 
-    "diffEditor.insertedTextBackground": "#748c3d33",
+    "diffEditor.insertedTextBackground": "#52694055",
     "diffEditor.removedTextBackground": "#ab232333",
     "diffEditor.border": "#5e636d",
 
