@@ -15,14 +15,14 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#7ec482"
+        "foreground": "#7cc080"
       }
     },
     {
       "name": "String Quoted",
       "scope": "string.quoted",
       "settings": {
-        "foreground": "#7ec482"
+        "foreground": "#7cc080"
       }
     },
     {
@@ -129,17 +129,10 @@
       }
     },
     {
-      "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#dea646"
-      }
-    },
-    {
       "name": "Function Parameters",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#9877d0"
+        "foreground": "#89DDFF"
       }
     },
     {
@@ -164,14 +157,14 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#F07178"
+        "foreground": "#e8bf6a"
       }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#A9B7C7"
       }
     },
     {
@@ -241,7 +234,14 @@
       "name": "Keyword Operator Assignment",
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#7199e6"
+        "foreground": "#A9B7C7"
+      }
+    },
+    {
+      "name": "Keyword Operator Arrow",
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "foreground": "#A9B7C7"
       }
     },
     {
@@ -290,7 +290,7 @@
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#F07178"
+        "foreground": "#7199E6"
       }
     },
     {
@@ -427,7 +427,7 @@
       "name": "JS Entity Name Function",
       "scope": ["meta.function-call.js.jsx"],
       "settings": {
-        "foreground": "#140e0e"
+        "foreground": "#FFC66D"
       }
     },
     {
@@ -532,7 +532,7 @@
       "name": "Punctuation Section Embedded",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#F07178"
+        "foreground": "#A9B7C7"
       }
     },
     {
@@ -890,15 +890,40 @@
     {
       "name": "JavaScript[React] Variable Other Object",
       "scope": [
-        "variable.other.object.js",
-        "variable.other.object.jsx",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx",
         "meta.object-literal.key.js",
         "meta.object-literal.key.jsx",
         "variable.object.property.js",
-        "variable.object.property.jsx"
+        "variable.object.property.jsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#71cbd2"
+      }
+    },
+    {
+      "name": "JavaScript[React] Variable Other Object",
+      "scope": [
+        "variable.other.object.ts",
+        "variable.other.object.js",
+        "variable.other.object.jsx"
       ],
       "settings": {
         "foreground": "#A9B7C7"
+      }
+    },
+    {
+      "name": "Function calls",
+      "scope": [
+        "meta.function-call.js.jsx",
+        "meta.function-call.ts.tsx",
+        "variable.other.object.tsx",
+        "meta.function-call.tsx"
+      ],
+      "settings": {
+        "foreground": "#ae87f1"
       }
     },
     {
@@ -926,7 +951,7 @@
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#7ec482"
+        "foreground": "#7cc080"
       }
     },
     {
@@ -955,6 +980,13 @@
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
       "settings": {
         "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "Typescript language undefined",
+      "scope": "constant.language.undefined.tsx",
+      "settings": {
+        "foreground": "#7199E6"
       }
     },
     {
@@ -1240,10 +1272,6 @@
         "variable.other.readwrite.alias.tsx",
         "variable.other.readwrite.ts",
         "variable.other.readwrite.tsx",
-        "variable.other.object.ts",
-        "variable.other.object.tsx",
-        "variable.object.property.ts",
-        "variable.object.property.tsx",
         "variable.other.ts",
         "variable.other.tsx",
         "variable.tsx",
@@ -1373,7 +1401,16 @@
         "punctuation.definintion.string",
         "punctuation"
       ],
-      "settings": {}
+      "settings": {
+        "foreground": "#7CC080"
+      }
+    },
+    {
+      "name": "normalize font color of certain components",
+      "scope": ["punctuation.definintion.string", "punctuation"],
+      "settings": {
+        "foreground": "#A9B7C7"
+      }
     }
   ],
   "colors": {
