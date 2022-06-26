@@ -450,7 +450,7 @@
     "activityBar.background": "#2b2d30",
     "activityBar.inactiveForeground": "#646a73",
     "activityBarBadge.foreground": "#ffffff",
-    "activityBarBadge.background": "#3673f0",
+    "activityBarBadge.background": "#1257ED",
     "activityBar.border": "#1d1e21",
     "activityBar.activeBorder": "#00000000",
     "activityBar.activeBackground": "#06070700",
@@ -508,7 +508,7 @@
     "menu.separatorBackground": "#393b40",
     "menu.border": "#00000000",
 
-    "button.background": "#3673f0",
+    "button.background": "#1159E8",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#245bcd",
     "button.secondaryForeground": "#ffffff",
@@ -585,7 +585,7 @@
     "panelTitle.activeForeground": "#e7e7e7",
     "panelTitle.inactiveForeground": "#a6a7ad",
 
-    "badge.background": "#3773f0",
+    "badge.background": "#1257ED",
     "badge.foreground": "#ffffff",
 
     "terminal.foreground": "#bbbbbb",
