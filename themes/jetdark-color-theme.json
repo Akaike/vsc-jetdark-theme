@@ -91,6 +91,12 @@
       }
     },
     {
+      "scope": "entity.name.import",
+      "settings": {
+        "foreground": "#7EC482"
+      }
+    },
+    {
       "scope": "keyword",
       "settings": {
         "foreground": "#749DED"
