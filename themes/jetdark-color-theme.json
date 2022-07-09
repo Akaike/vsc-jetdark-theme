@@ -438,6 +438,32 @@
         "foreground": "#dbedff",
         "fontStyle": "underline"
       }
+    },
+    {
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#749DED"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.float.yaml",
+        "constant.numeric.integer.yaml",
+        "constant.numeric.hex.yaml",
+        "constant.numeric.octal.yaml",
+        "constant.numeric.binary.yaml",
+        "constant.numeric.decimal.yaml",
+        "string.unquoted.plain.out.yaml",
+        "string.unquoted.plain.in.yaml",
+        "string.unquoted.block.yaml",
+        "string.quoted.block.yaml",
+        "string.quoted.single.block.yaml",
+        "constant.language.null.yaml",
+        "constant.language.boolean.yaml"
+      ],
+      "settings": {
+        "foreground": "#CED0D6"
+      }
     }
   ],
   "colors": {
